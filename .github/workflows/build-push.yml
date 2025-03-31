@@ -59,7 +59,7 @@ jobs:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: multi-docker
-          environment_name: MultiDocker-env
+          environment_name: Multi-docker-env
           existing_bucket_name: elasticbeanstalk-us-east-1-120036518459
           region: us-east-1
           version_label: ${{ github.sha }}
@@ -75,7 +75,7 @@ jobs:
       #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_KEY }}
       #     AWS_REGION: us-east-1
       #     EB_APPLICATION: multi-docker
-      #     EB_ENVIRONMENT: MultiDocker-env
+      #     EB_ENVIRONMENT: Multi-docker-env
       #     S3_BUCKET: elasticbeanstalk-us-east-1-120036518459
       #     S3_BUCKET_PATH: docker-multi
       #   run: |
